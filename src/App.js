@@ -4,6 +4,7 @@ import Page from './page';
 import Dialpad from './dialpad';
 import { useState,useEffect } from 'react';
 import Calculator from './calculator';
+import Stopwatch from './Timer'
 function App() {
   // var x=10
   // const [a, setA] = useState(10)
@@ -17,10 +18,14 @@ function App() {
     // <div className="App">
 
     <div>
-      {/* <p>{pavani}</p> */}
+   
       {/* <Page></Page> */}
       {/* <Dialpad></Dialpad> */}
-      <Calculator></Calculator>
+      {/* <Calculator></Calculator> */}
+      <Stopwatch></Stopwatch>
+
+
+      
       {/* {3==2?'Hi':'Heelo'}
       pavani */}
       {/* {a}
